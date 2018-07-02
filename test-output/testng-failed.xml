@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.qainfotech.automation.tatoc_advanced.AppTest">
+        <methods>
+          <include name="Test03_adding_credentials_to_db_query"/>
+          <include name="close_the_browser"/>
+          <include name="launch_the_browser"/>
+        </methods>
+      </class> <!-- com.qainfotech.automation.tatoc_advanced.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
